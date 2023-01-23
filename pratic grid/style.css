@@ -1,0 +1,16 @@
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50px auto 10%;
+    height: 35vh;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
