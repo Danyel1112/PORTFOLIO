@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    overflow-x: hidden;
+    background: #121214;
+}
+
+.main-img {
+    overflow-y: hidden;
+}
+
+.main-img img {
+    position: absolute;
+    width: 1000px;
+    height: 100vh;
+    left: 950px;
+    top: 0px;
+}
+
+.logo img {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    top: 50px;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 647px;
+    height: 102px;
+    left: 100px;
+    top: 280px;
+    gap: 10px;
+}
+
+.notice h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
+}
+
+.notice h4 {
+    width: 517px;
+    height: 16px;
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.notice p {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.receive-news {
+    position: absolute;
+    width: 798px;
+    height: 84px;
+    left: 100px;
+    top: 420px;
+}
+
+.receive-news p {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+
+    color: #A8A8A8;
+}
+
+.email {
+    width: 798px;
+    height: 48px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+    border-left: 5px solid #08C05E;
+    padding-left: 10px;
+    float: left;
+    outline: none;
+}
+
+.receive-news button {
+    z-index: 2;
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    margin-top: 1px;
+    background: #8257E5;
+    border-radius: 5px;
+    cursor: pointer;
+    right: -20px;
+    border: none;
+}
+
+.reader {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 100px;
+    top: 570px;
+}
+
+.reader p {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 138.73%;
+    float: left;
+    color: #8257E5;
+    cursor: pointer;
+}
+
+.reader img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+}
