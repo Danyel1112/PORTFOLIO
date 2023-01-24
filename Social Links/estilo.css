@@ -1,0 +1,138 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container-modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FAF7FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: #FAF7FD;
+    /* Primeiro modo centralizar */
+    /*top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;*/
+
+    /* Segundo modo centralizar 
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+
+    /* Terceiro modo centralizar é uso na DIV pai*/
+}
+
+.img-info img {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border: 2px solid salmon;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.modal a, p {
+    display: flex;
+    margin-left: 55px;
+    width: 99px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    color: #BB99DD;
+}
+
+.wrapper {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+}
+
+.links {
+    box-sizing: border-box;
+    width: 220px;
+    height: 49px;
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+}
+
+.links:hover {
+    background-color: darkblue;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 225px;
+    height: 30px;
+}
+
+.social-media img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin: 0;
+}
+
+.social-media a {
+    margin: 0;
+}
+
+.git-icon:hover {
+    background-color: #000;
+}
+
+.insta-icon:hover {
+    background-color: rgba(168, 114, 94, 0.397);
+}
+
+.link-icon:hover {
+    background-color: lightblue;
+}
+
+.twitch-icon:hover {
+    background-color: antiquewhite;
+}
+
+.twitter-icon:hover {
+    background-color: aqua;
+}
+
+@media screen {
+
+    html,
+    body {
+        width: 280px;
+        height: 700px;
+        background: #FAF7FD;
+    }
+}
