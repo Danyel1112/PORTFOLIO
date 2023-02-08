@@ -1,0 +1,74 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.top-img img {
+    position: absolute;
+    width: 1366px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+}
+
+.box-modal {
+    position: absolute;
+    width: 800px;
+    height: 54px;
+    left: 127px;
+    top: 187px;
+    float: left;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+
+    color: #6C63FF;
+}
+
+.bot-img img {
+    position: absolute;
+    width: 1366px;
+    top: 750px;
+    left: 0px;
+}
+
+
+.countdown-container {
+    display: flex;
+    gap: 120px;
+}
+
+.countdown-container span {
+    width: 30px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.countdown-container p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: #4D4C59;
+
+}
